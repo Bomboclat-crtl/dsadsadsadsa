@@ -1,0 +1,60 @@
+.footer-ecomarket{
+  background:#263b54;
+  color:#fff;
+}
+
+.footer-ecomarket .footer-title{
+  font-weight:700;
+  margin-bottom:1rem;
+}
+
+.footer-ecomarket .social-icon{
+  width:54px;
+  height:54px;
+  border:2px solid #fff;
+  border-radius:50%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  background:transparent;
+}
+
+.footer-ecomarket .social-icon img{
+  width:28px;
+  height:28px;
+  object-fit:contain;
+}
+
+.footer-bottom{
+  background:#1e1e1e;
+  color:#fff;
+}
+
+
+.footer-ecomarket .social-icon {
+  width:54px;
+  height:54px;
+  border:2px solid #fff;
+  border-radius:50%;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  transition: all 0.3s ease;
+}
+
+.footer-ecomarket .social-icon img {
+  width:28px;
+  height:28px;
+  transition: transform 0.3s ease;
+}
+
+
+.footer-ecomarket .social-icon:hover {
+  background:#4CAF50; 
+  border-color:#4CAF50;
+  transform: scale(1.1);
+}
+
+.footer-ecomarket .social-icon:hover img {
+  transform: scale(1.2);
+}
